@@ -1880,3 +1880,30 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/* farman css */
+.pagebuilder {
+    margin-bottom: 30px;
+}
+
+.pagebuilder .builder {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.pagebuilder .builder .builder-card {
+    padding: 16px;
+    border: 1px solid #383838;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+.pagebuilder .builder .builder-card p {
+    color: #d6d6d6;
+    font-size: 15px;
+}
+
+.pagebuilder .pagebuilder-title {
+    margin-bottom: 25px;
+}
