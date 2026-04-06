@@ -1897,13 +1897,23 @@ textarea.form-input::-webkit-resizer { display: none; }
     border: 1px solid #383838;
     border-radius: 0.75rem;
     text-align: center;
+    transition: all 0.5s;
 }
 
 .pagebuilder .builder .builder-card p {
     color: #d6d6d6;
     font-size: 15px;
+    font-weight: 500;
 }
 
 .pagebuilder .pagebuilder-title {
     margin-bottom: 25px;
 }
+.pagebuilder .builder .builder-card:hover {
+    border-color: #ffdb70;
+}
+
+.pagebuilder .builder .builder-card:hover p {
+    color: #ffdb70;
+}
+
